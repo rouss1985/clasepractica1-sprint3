@@ -1,0 +1,49 @@
+.row1{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-row-gap: 10px;
+  clear: both;
+  height: auto;
+  margin-bottom: 10px;
+}
+.row2{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  clear: both;
+  height: auto;
+  margin-bottom: 10px;
+}
+.yellow{
+  background: #f7ea00;
+  height: 200px;
+}
+.aqua{
+  background: #34eaa9;
+  height: 500px;
+}
+.lila{
+  background: #e486ea;
+  height: 500px;
+}
+.letraA{
+  color: #fff;
+  font-size:100px;
+  text-align: center;
+}
+.letraB{
+  color: #fff;
+  font-size:100px;
+  text-align: center;
+}
+.letraC{
+  color: #fff;
+  font-size:100px;
+  text-align: center;
+}
+@media (max-width:768px){
+  .row1,.row2{
+    grid-template-columns: 100%;
+  }
+}

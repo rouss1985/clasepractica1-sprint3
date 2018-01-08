@@ -1,0 +1,90 @@
+.row12{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  clear: both;
+  height: auto;
+  margin-bottom: 10px;
+}
+.row6{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  clear: both;
+  height: auto;
+  margin-bottom: 10px;
+}
+.row4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  clear: both;
+  height: auto;
+  margin-bottom: 10px;
+}
+.row3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  clear: both;
+  height: auto;
+  margin-bottom: 10px;
+}
+.row2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  clear: both;
+  height: auto;
+  margin-bottom: 10px;
+}
+.row1{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  clear: both;
+  height: auto;
+  margin-bottom: 10px;
+}
+.yellow{
+  border-color: black;
+  border: 1px solid;
+  background: yellow;
+  height: 50px;
+}
+.green{
+  border-color: black;
+  border: 1px solid;
+  background: #afff00;
+  height: 50px;
+}
+.aqua{
+  border-color: black;
+  border: 1px solid;
+  background: #01b6ad;
+  height: 50px;
+}
+.aqua2{
+  border-color: black;
+  border: 1px solid;
+  background: #049991;
+  height: 50px;
+}
+.lila{
+  border-color: black;
+  border: 1px solid;
+  background: #9c42d1;
+  height: 50px;
+}
+.pink{
+  border-color: black;
+  border: 1px solid;
+  background: #d126a9;
+  height: 50px;
+}
